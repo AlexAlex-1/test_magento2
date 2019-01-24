@@ -1,0 +1,13 @@
+{
+    "name": "vendor/secondModule",
+    "description": "summary",
+    "require":{
+        "vendor/firstModule": "0.0.1"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Vendor\\secondModule\\": ""
+        }
+    }
+}
